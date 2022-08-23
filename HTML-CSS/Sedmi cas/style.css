@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+}
+
+.main {
+  width: 400px;
+  height: 300px;
+  background-color: blue;
+  /*margin: 30px;*/
+  /*margin-top: 20px;*/
+  /*margin-bottom: 25px;*/
+  /*margin-left: 40px;*/
+  /*Ako imamo cetri vrednosti za svojstvo ili padding. Shvatanje CSSaje sledeca: */
+  /*1. Vrednost se odnosti na margin-top*/
+  /*2. Vrednost se odnosti na margin-right*/
+  /*3. Vrednost se odnosti na margin-bottom*/
+  /*4. Vrednost se odnosti na margin-left*/
+  /*margin: 10px 20px 30px 40px;*/
+  /*1. Vrednost se odnosti na margin-top i margin-bottom*/
+  /*2. Vrednost se odnosti na margin-right i margin-left*/
+  /*margin: 20px 40px;*/
+  /*1. Vrednost se odnosti na margin-top*/
+  /*2. Vrednost se odnosti na margin-right i margin-left*/
+  /*3. Vrednost se odnosti na margin-bottom*/
+  /*margin: 10px 20px 30px;*/
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  /*border: 3px solid rgb(255, 0, 0); - obicna linija*/
+  /*border: 3px double rgb(255, 0, 0); - dupla linija*/
+  /*border: 3px dashed rgb(255, 0, 0); - isprekidana linija*/
+  border: 3px solid rgb(255, 0, 0);
+  /*border-radius: 10px;*/
+  border top left: 10px;
+  border top right: 10px;
+  padding: 20px 7px 15px 0px;
+  /*padding: 30px;*/
+  box-shadow: 3px 3px 20px rgba(1,0,0,1);
+}
+button {
+  padding: 10px;
+  /*padding 10px*/
+  /*width: 80px;*/
+  /*height: 50;*/
+  margin-left: 1250px;
+}
+
+p{
+    text-align: justify;
+    text-align-last: center;
+    text-indent: 25px;
+}
+
+p:hover {
+    background-color: aqua;
+    color: blueviolet;
+
+    /* Domaci zadatak.
+    Odraditi karticu kao saq slike.
+    glavna kartica da ima sirinu 400px, visinu 600px.
+    Fotografija da zauzima trecinu glavnog kontejnera.
+    Naslov je velicine h1 a podnaslov velicine h3.*/

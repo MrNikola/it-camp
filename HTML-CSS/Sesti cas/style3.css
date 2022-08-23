@@ -1,0 +1,15 @@
+.div1 {
+  height: 500px;
+  width: 400px;
+  background-color: aqua;
+  overflow: auto;
+  text-align: center;
+  font-size: 20px;
+}
+h2 {
+  color: burlywood;
+}
+p {
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
