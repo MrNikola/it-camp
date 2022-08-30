@@ -1,0 +1,33 @@
+* {
+  margin: auto;
+  background-image: url(https://images.hdqwalls.com/wallpapers/blur-background-6z.jpg);
+  padding: auto;
+  background-size: contain;
+}
+/* .main:nth-last-of-type(1) */
+/*margin: auto;*/
+/* width: 200px;
+  height: 200px;
+  background-color: aqua;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto; }*/
+/*.main:nth-last-of-type(2) 
+  width: 200px;
+  height: 200px;
+  background-color: rgb(255, 0, 0);*/
+
+/*.main:nth-last-of-type(3) 
+  width: 200px;
+  height: 200px;
+  background-color: rgb(238, 255, 0);*/
+
+.main {
+  /*margin: auto;*/
+  width: 430px;
+  height: 210px;
+  background-color: aqua;
+  padding: 20px;
+  overflow: auto;
+  display: inline-block;
+}
