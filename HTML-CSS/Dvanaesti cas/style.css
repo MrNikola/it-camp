@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+  font-size: 0.6cm;
+}
+.main {
+  margin: auto;
+  width: 80vw;
+  height: 60vh;
+  background-color: blue;
+  font-size: 1.2em;
+}
+.child {
+  background-color: blueviolet;
+  /*font-size: 2em;*/
+}
+/*Absolutne lenghts: 
+
+cm(centimetri),
+mm(milimetri),
+in(inci(1 in - 96 px)),
+px(pikseli),
+pt(points),
+pc(pikas (1 pc - 12 pt))*/
+
+/*Relativne velicine:
+
+em - Relativan u odnosu na font-size od parent elementa 
+rem - Relativan u odnosu na font-size od od body - Ne nasledjuje velicinu od svog roditelja 
+vw - vievport of width - Relativna u odnosu na sirinu ekrana 
+vh - vievport of height - Relativna u odnosu na visinu ekrana
+vmin - vievport of min - Relativna 1% u odnosu na manji deo (sirina ili visina) 
+vmax - vievport of max - Relativna 1% u odnosu na veci deo (sirina ili visina) 
+% - relativan u odnosu na parent element 
+*/
