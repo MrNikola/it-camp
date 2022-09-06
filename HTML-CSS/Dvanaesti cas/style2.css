@@ -1,0 +1,30 @@
+* {
+  font-family: "Lobster", cursive;
+  margin: 0;
+  background-image: url(https://coolwallpapers.me/picsup/5622915-texture-wallpapers.jpg);
+  background-size: cover;
+}
+.main {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  background: #000b0a;
+  color: white;
+  font-size: 30px;
+}
+.main2 {
+  width: 100%;
+  text-align: center;
+  background: #404a49;
+  color: white;
+  font-size: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+article {
+  height: 400px;
+  width: 300px;
+  background-color: blue;
+  position: relative;
+}
