@@ -1,30 +1,83 @@
-* {
+body {
   font-family: "Lobster", cursive;
   margin: 0;
   background-image: url(https://coolwallpapers.me/picsup/5622915-texture-wallpapers.jpg);
   background-size: cover;
+  font-style: rgb(0, 234, 255);
 }
 .main {
   width: 100%;
   height: fit-content;
   text-align: center;
-  background: #000b0a;
+  background: #3384d0;
   color: white;
   font-size: 30px;
 }
 .main2 {
   width: 100%;
   text-align: center;
-  background: #404a49;
+  background: #3384d0;
   color: white;
   font-size: 30px;
   position: fixed;
   left: 0;
   bottom: 0;
 }
+.main2 p {
+  text-align: end;
+  display: inline;
+  color: blue;
+}
 article {
+  display: inline-block;
+}
+.article12 {
   height: 400px;
   width: 300px;
-  background-color: blue;
-  position: relative;
+  background-image: url(https://wallpaperaccess.com/full/1151502.jpg);
+  border-radius: 10px;
+  float: left;
+  margin-left: 10%;
+}
+.article10 {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://wallpaperaccess.com/full/1151502.jpg);
+  border-radius: 10px;
+  margin: auto;
+  margin-left: 7.5%;
+}
+.article11 {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://wallpaperaccess.com/full/1151502.jpg);
+  border-radius: 10px;
+  float: right;
+  margin-right: 10%;
+}
+
+p {
+  color: rgb(0, 255, 234);
+  text-align: center;
+  text-align-last: right;
+}
+h3 {
+  color: rgb(30, 0, 253);
+  text-align: center;
+  text-align-last: right;
+}
+p:hover {
+  color: aliceblue;
+  box-shadow: #3384d0;
+  background-image: url(https://wallpapercave.com/wp/wp137339.jpg);
+}
+h3:hover {
+  color: aliceblue;
+  background-image: url(https://wallpapercave.com/wp/wp137339.jpg);
+}
+icon:hover {
+  color: aliceblue;
+}
+a:hover {
+  color: aliceblue;
 }
