@@ -1,0 +1,62 @@
+body {
+  background-color: rgb(35, 0, 175);
+  font-family: "Lobster", cursive;
+  margin: 0;
+  color: aqua;
+  box-sizing: border-box;
+}
+.main {
+  margin: 2rem auto;
+  width: 95%;
+  height: 250vh;
+  background: rgb(1, 51, 176);
+  position: relative;
+}
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(242, 242, 7);
+  /*position: static; Defaultna vrednost kod position static*/
+  /*position: relative; Ostavlja rezervisan prostor na kom se nalazio (tu se nece automatski naci sledeci elemnt)*/
+
+  position: relative;
+  top: 0px;
+  left: 50%;
+  /*bottom: 30px;*/
+  /*right: 160px;*/
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(0, 252, 17);
+  position: absolute;
+  /*position: absolute; Ne cuva prostor na kom se nalazio (tu se automacki naci sledeci element ispod onog na kom je position absolute)
+  */
+  top: 0px;
+  right: 0%;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(245, 220, 220);
+  position: fixed;
+  top: 50px;
+  left: 150px;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  /*sticky cuva prostor na kom se nalazio (tu se nece naci sledeci elemnt */
+  background-color: rgb(255, 13, 191);
+  position: sticky;
+  left: 50px;
+  top: 50px;
+  z-index: 10;
+}
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(7, 7, 0);
+  position: relative;
+  z-index: 20;
+}

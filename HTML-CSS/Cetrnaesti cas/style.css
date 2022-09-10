@@ -1,0 +1,85 @@
+body {
+  background-color: white;
+  font-family: "Lobster", cursive;
+  margin: 0;
+  font-size: 40px;
+}
+.main {
+  height: 400px;
+  width: 380px;
+  border-radius: 10px;
+  background-color: white;
+  float: left;
+  margin-left: 20%;
+  margin-top: 15%;
+  text-align: center;
+}
+.main p {
+  font-size: 25px;
+  color: rgb(29, 102, 165);
+}
+.main2 {
+  height: 450px;
+  width: 300px;
+  background-color: rgb(212, 247, 247);
+  border-radius: 13px;
+  float: right;
+  margin-right: 25%;
+  margin-top: 7%;
+}
+.main2 p {
+  font-size: 15px;
+}
+input {
+  font-family: "Lobster", cursive;
+  height: 50px;
+  width: 250px;
+  margin: 5%;
+  margin-left: 20px;
+  border-radius: 12px;
+}
+button {
+  font-family: "Lobster", cursive;
+  height: 50px;
+  width: 250px;
+  margin: 5%;
+  margin-left: 20px;
+  border-radius: 12px;
+  background-color: blue;
+  text-align: center;
+  color: aliceblue;
+}
+.main5 {
+  text-align: center;
+}
+hr {
+  width: 80%;
+}
+.main6 {
+  font-family: "Lobster", cursive;
+  height: 50px;
+  width: 250px;
+  margin: 5%;
+  margin-left: 20px;
+  border-radius: 12px;
+  background-color: rgb(0, 139, 28);
+  text-align: center;
+  color: aliceblue;
+}
+#icon {
+  font-size: 60px;
+}
+
+.main10 {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.main11 {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.text-for-icons {
+  font-size: 60px;
+}
