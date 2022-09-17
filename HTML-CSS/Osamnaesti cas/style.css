@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+}
+.main {
+  margin: auto;
+  width: 75%;
+  height: 550px;
+  background-color: aqua;
+  display: flex;
+}
+/*Pomocu nfelx grow svojstva zauzima se celokupna sirina parent kontejnera*/
+/*Definisanje sirine nekog child elemnta bim zapravo predstavljalo minimalnu sirinu tog elemnta*/
+.box1 {
+  /*flex-basis: 150px;*/
+  flex-grow: 1;
+  height: 150px;
+  background-color: blue;
+  /*flex-shrink: 3;*/
+  flex-basis: 250px;
+}
+.box2 {
+  height: 150px;
+  background-color: rgb(255, 0, 0);
+  flex-grow: 1;
+  /*flex-shrink: 1;*/
+}
+.box3 {
+  height: 150px;
+  background-color: rgb(43, 255, 0);
+  flex-grow: 1;
+  /*flex-shrink: 1;*/
+}

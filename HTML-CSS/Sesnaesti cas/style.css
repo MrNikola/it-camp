@@ -1,0 +1,10 @@
+body {
+  box-sizing: border-box;
+  display: inline;
+  margin: auto;
+}
+iframe {
+  box-sizing: border-box;
+  display: inline;
+  border: 10px;
+}

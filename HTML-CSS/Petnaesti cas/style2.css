@@ -6,8 +6,8 @@ body {
   box-sizing: border-box;
 }
 .main {
-  width: 40%;
-  height: 75%;
+  width: 34%;
+  height: 600px;
   background: rgb(1, 51, 176);
 }
 .box1 {

@@ -1,0 +1,61 @@
+body {
+  background-color: rgb(138, 132, 163);
+  font-family: "Lobster", cursive;
+  margin: 0;
+  color: aqua;
+  display: inline;
+}
+.main1 {
+  margin-top: 0;
+  position: sticky;
+  background-color: blue;
+  width: 100%;
+  height: 18%;
+}
+#icon {
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  display: inline;
+  margin-left: 35%;
+}
+.main1 h1 {
+  color: white;
+  text-align: left;
+  display: inline;
+}
+.main1 p {
+  display: inline;
+  font-size: 30px;
+}
+#icon p {
+  font-family: "Lobster", cursive;
+  color: aqua;
+}
+.main1 hr {
+  height: 100%;
+  width: 1px;
+  display: inline;
+}
+.main2 {
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-right: 10%;
+
+  clear: both;
+  float: left;
+  width: 54%;
+}
+.main2 h1 {
+  color: black;
+}
+.main2 p {
+  color: black;
+}
+.main3 {
+  float: right;
+  color: black;
+  margin-top: 8%;
+
+  margin-right: 8%;
+}
