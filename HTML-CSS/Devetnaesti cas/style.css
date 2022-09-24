@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+}
+.main {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+.main1 {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+}
+.main:hover .main1 {
+  transform: translateX(250px) translateY(250px);
+}

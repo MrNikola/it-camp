@@ -1,6 +1,8 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  border-left: 1cm darkblue;
+  border: 1cm darkblue ri;
 }
 body {
   font-family: "Lobster", cursive;
@@ -12,6 +14,7 @@ body {
   background-color: rgb(34, 0, 202);
   display: flex;
   position: sticky;
+  border: 10px double darkblue;
 }
 .main1 h1 {
   font-family: "Lobster", cursive;
@@ -36,6 +39,7 @@ body {
   border-radius: 20px;
   width: 10%;
   border-color: white;
+  border: 5px outset;
 }
 .main2 {
   margin-top: 7%;
@@ -48,32 +52,201 @@ body {
 .main4 {
   display: inline;
   float: right;
+  margin-top: -5%;
+  margin-right: 6%;
 }
 .box1 {
   background-color: gray;
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   flex-direction: column;
+  text-align: center;
+  border: 10px double darkblue;
 }
 .box2 {
   background-color: gray;
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   flex-direction: column;
   margin-left: 110%;
   margin-top: -90%;
+  text-align: center;
+  border: 10px double darkblue;
 }
 .box3 {
   background-color: gray;
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   flex-direction: column;
+  text-align: center;
+  border: 10px double darkblue;
 }
 .box4 {
   background-color: gray;
-  width: 220px;
-  height: 220px;
+  width: 230px;
+  height: 230px;
   flex-direction: column;
   margin-left: 110%;
   margin-top: -90%;
+  text-align: center;
+  border: 10px double darkblue;
+}
+.main10 {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(34, 0, 202);
+  font-size: 30px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 50px;
+  border: 10px double darkblue;
+}
+.ball1 {
+  background-color: black;
+  width: 28px;
+  height: 28px;
+  border-radius: 28px;
+  margin-top: 1px;
+  float: left;
+  margin-left: 28px;
+}
+.ball2 {
+  background-color: white;
+  width: 28px;
+  height: 28px;
+  float: right;
+  border-radius: 28px;
+  margin-top: 1px;
+  margin-right: 28px;
+}
+.main10:hover .ball1 {
+  background-color: rgb(255, 255, 255);
+  animation: top-to-bottom 3s ease-in-out forwards infinite alternate;
+}
+.main10:hover .ball2 {
+  background-color: rgb(0, 0, 0);
+  animation: top-to-bottom1 3s ease-in-out forwards infinite alternate;
+}
+@keyframes top-to-bottom {
+  100% {
+    transform: translateX(1280px);
+    background-color: rgb(0, 0, 0);
+  }
+}
+@keyframes top-to-bottom1 {
+  100% {
+    transform: translateX(-1280px);
+    background-color: rgb(255, 255, 255);
+  }
+}
+#icon {
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  margin-top: 8%;
+}
+p {
+  color: white;
+  text-align: justify;
+  margin-left: 8%;
+  margin-right: 8%;
+}
+h3 {
+  color: black;
+}
+.nikola {
+  color: rgb(39, 0, 235);
+  text-align: center;
+  margin-top: -5px;
+}
+.main10:hover .nikola {
+  animation: top-to-bottom12 2s ease-in-out forwards infinite alternate;
+}
+@keyframes top-to-bottom12 {
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}
+@media (min-width: 500px) and (max-width: 750px) {
+  * {
+    height: 30%;
+    width: 30%;
+  }
+  body {
+    height: 30%;
+    width: 30%;
+  }
+  .main1 {
+    height: 30%;
+    width: 30%;
+  }
+  .main1 h1 {
+    height: 30%;
+    width: 30%;
+  }
+  .main1 a {
+    height: 30%;
+    width: 30%;
+  }
+  .main2 {
+    height: 30%;
+    width: 30%;
+  }
+  .main3 {
+    height: 30%;
+    width: 30%;
+  }
+  .box1 {
+    height: 30%;
+    width: 30%;
+  }
+  .box2 {
+    height: 30%;
+    width: 30%;
+  }
+  .box3 {
+    height: 30%;
+    width: 30%;
+  }
+  .box4 {
+    height: 30%;
+    width: 30%;
+  }
+  .main3 div {
+    height: 30%;
+    width: 30%;
+  }
+  p {
+    height: 30%;
+    width: 30;
+  }
+  h3 {
+    height: 30%;
+    width: 30%;
+  }
+  #icon {
+    height: 30%;
+    width: 30%;
+  }
+  .main4 {
+    height: 30%;
+    width: 30%;
+  }
+  img {
+    height: 30%;
+    width: 30%;
+  }
+  .main10 {
+    height: 30%;
+    width: 30%;
+  }
+  .ball1 {
+    height: 30%;
+    width: 30%;
+  }
+  .ball2 {
+    height: 30%;
+    width: 30%;
+  }
 }

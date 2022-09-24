@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+}
+.main {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(54, 54, 154);
+}
+.main1 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(80, 94, 255);
+  transition: all 2s cubic-bezier(0, -0.37, 1, 2.1) 1s;
+  /*transition-property: transform;*/
+  /*transition-duration: 0.5s;*/
+  /*transition-timing-function: ease-in-out;*/
+}
+.main:hover .main1 {
+  transform: translateX(250px) translateY(250px);
+  background-color: green;
+}
