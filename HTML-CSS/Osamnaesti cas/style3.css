@@ -11,6 +11,7 @@ body {
   height: 100px;
   background-color: rgb(34, 0, 202);
   display: flex;
+  position: sticky;
 }
 .main1 h1 {
   font-family: "Lobster", cursive;
