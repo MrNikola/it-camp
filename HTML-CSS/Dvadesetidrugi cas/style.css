@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lobster", cursive;
+}
+.countainer {
+  font-family: "Lobster", cursive;
+  margin: auto;
+  margin-top: 40px;
+  background-color: darkblue;
+  height: 80%;
+  width: 70%;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+}
+img {
+  align-items: center;
+}
