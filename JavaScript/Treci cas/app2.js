@@ -39,3 +39,11 @@ let y = 11;
 console.log(++y);
 
 // 1.8 -- Decrement (Smanjuje vrednost za 1)
+let z = 99;
+// postfiksni operator
+z--; // z = z - 1
+console.log(z);
+
+let w = 65;
+//prefiksni operator
+console.log(--w);
