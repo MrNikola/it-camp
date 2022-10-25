@@ -7,3 +7,7 @@ console.log(ime);
 
 // Sve sto korisnik unese je tipa string
 console.log(godina);
+console.log(typeof godine);
+
+// 1. Number(promenljiva)
+const brGodina = Number;
