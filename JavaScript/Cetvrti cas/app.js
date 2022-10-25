@@ -4,3 +4,6 @@
 
 const ime = prompt("Unesite vase ime:  ");
 console.log(ime);
+
+// Sve sto korisnik unese je tipa string
+console.log(godina);
