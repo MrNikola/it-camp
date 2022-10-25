@@ -10,10 +10,11 @@
 
 // Ako je broj godina unet od strane korisnika >
 
-const godine = prompt("Unesite vase godine:  ");
+const godine = +prompt("Unesite vase godine:  ");
 console.log(godine);
 
-if (godine < 12) {
+ale;
+if (godine >= 0 && godine < 12) {
   alert("Vi ste decijeg doba!");
 } else if (godine >= 12 && godine < 18) {
   alert("Vi ste maloletni.!");
