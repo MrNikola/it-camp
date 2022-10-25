@@ -12,5 +12,15 @@
 
 const godine = prompt("Unesite vase godine:  ");
 console.log(godine);
-if (godine >= 18) alert("punoletni ste");
-else if (godine <= 18) alert("maloletni ste");
+
+if (godine < 12) {
+  alert("Vi ste decijeg doba!");
+} else if (godine >= 12 && godine < 18) {
+  alert("Vi ste maloletni.!");
+} else if (godine >= 18 && godine < 40) {
+  alert("Vi ste punoletni.!");
+} else if (godine >= 40) {
+  alert("Vi ste odrasla osoba.!");
+} else if (godine < 0) {
+  alert("Uneli ste neatcan broj.!");
+}
