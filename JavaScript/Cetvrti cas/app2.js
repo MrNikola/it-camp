@@ -12,8 +12,6 @@
 
 const godine = +prompt("Unesite vase godine:  ");
 console.log(godine);
-
-ale;
 if (godine >= 0 && godine < 12) {
   alert("Vi ste decijeg doba!");
 } else if (godine >= 12 && godine < 18) {
