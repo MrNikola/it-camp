@@ -43,3 +43,21 @@ while (broj1 <= broj2)
 
 }
 
+//do while petlja predstqavljaposeban sluvvajwhile petlje gde se prvo izvrzava kod, pa tek ondaproverava uslov.
+
+// Sintaksa:
+
+// do {
+    // blok koda za izvrsavanje
+// } while (uslov)
+
+// Ispisati 
+
+// Nedostatakdo while petlje kroz primer.
+// Ispisati sve brojeve manje od 20 , krenuvsi
+let broj 4 = Number (promt("Unesiteneki broj : "))
+do {
+    console.log()
+}
+
+//
