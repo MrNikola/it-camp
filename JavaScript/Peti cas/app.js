@@ -2,7 +2,7 @@
 
 // prompt() metoda nam sluzi za komunikaciju sa korisnikom.
 
-const ime = prompt("Unesite vase ime: ");
+const ime = prompt("Unesite vase ime:");
 console.log(ime);
 
 // Sve sto korisnik unese je tipa string.
