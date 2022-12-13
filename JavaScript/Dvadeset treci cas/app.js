@@ -9,6 +9,8 @@ console.log(petica);
 const noviBroj = 555e-5;
 console.log(noviBroj);
 
+// Sto se tice sabiranja decimalnih brojeva JavaScript nije bas najbolji kalkulator.
+
 const x = 0.1;
 const y = 0.2;
 const z = x + y;
