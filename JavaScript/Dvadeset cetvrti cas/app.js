@@ -116,3 +116,21 @@ console.log(Number({})); // NaN
 // Napraviti funkciju koja ocekuje cetvorocifren broj, a vraca broj kojem su zamenjene prva i treca cifra, kao i druga i cetvrta cifra.
 // 4752
 // 5247
+
+// 2. parseInt () - analizira argument i vraca nam ceo broj ako je moguce.
+
+console.log(parseInt("23 56")); // NaN
+
+console.log(parseInt("23,78")); // NaN
+
+console.log(parseInt("23.78")); // 23.78
+
+console.log(parseInt("adf")); // NaN
+
+console.log(parseInt(true)); // 1
+
+console.log(parseInt(false)); // 0
+
+console.log(parseInt([])); // 0
+
+console.log(parseInt({})); // NaN
