@@ -30,15 +30,3 @@ console.log(minusBesk);
 
 const notANumber = Number.NaN;
 console.log(notANumber);
-
-function BrojNJ(broj1, broj2) {
-  let ggh;
-  if (100 - broj1 > 100 - broj2) {
-    ggh = broj2;
-  } else if (100 - broj1 < 100 - broj2) {
-    ggh = broj1;
-  }
-  return ghh;
-}
-
-console.log(BrojNJ(20, 30));
