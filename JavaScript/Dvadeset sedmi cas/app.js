@@ -5,3 +5,17 @@ function rastojanje(x1, y1, x2, y2) {
   return Math.sqrt(x * x + y * y);
 }
 console.log(rastojanje(10, 15, 20, 30));
+
+function ocene(Takmicar1M, Takmicar1P, Takmicar2M, Takmicar2P) {
+  let gg1 = Takmicar1M + Takmicar1P;
+  let gg2 = Takmicar2M + Takmicar2P;
+  if (gg1 > gg2) {
+    return "Takmicar1 je pobednik.";
+  } else if (gg1 < gg2) {
+    return "Takmicar2 je pobednik.";
+  }
+  if ((gg1 = gg2)) {
+    return "Takmicar1 je pobednik.";
+  }
+}
+console.log(ocene(40, 45, 45, 35));
