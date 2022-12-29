@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.main1 {
+  background-color: black;
+  height: 4%;
+  width: 100%;
+  text-align: right;
+  font-style: white;
+  text-decoration: none;
+}
+.main1 a {
+  color: white;
+  text-decoration: none;
+}
+.main2 {
+  background-color: grey;
+  height: 7%;
+}
+h1 {
+  text-align: center;
+  margin-top: 2%;
+}
+.forma1 {
+  text-align: center;
+  margin-top: 2%;
+}
+#naziv {
+  margin-left: 5%;
+}

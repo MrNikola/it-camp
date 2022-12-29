@@ -19,3 +19,15 @@ function ocene(Takmicar1M, Takmicar1P, Takmicar2M, Takmicar2P) {
   }
 }
 console.log(ocene(40, 45, 45, 35));
+
+function NZD(x, y) {
+  x = Math.abs(x);
+  y = Math.abs(y);
+  while (y) {
+    let t = y;
+    y = x % y;
+    x = t;
+  }
+  return x;
+}
+console.log(NZD(4, 9));
