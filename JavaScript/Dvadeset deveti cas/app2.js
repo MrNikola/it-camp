@@ -21,4 +21,7 @@ let godine = [20, 21, 18, 17, 17, 19, 18, 17, 18, 19];
 let noveGodine = godine;
 
 console.log(noveGodine);
-noveGodine = [21, 22, 19, 18, 18, 20, 19, 18, 19, 20];
+noveGodine.push(34);
+
+console.log(noveGodine);
+console.log(godine);
