@@ -1,8 +1,8 @@
 // 1. Osnovni Tipovi Podataka
 // (Primitivni Tipovi Podataka)
-// (Vrednostni Tipovi Podataka)
+// (Vrednosni Tipovi Podataka)
 
-// 2. (Referenti Tipovi Podataka)
+// 2. (Referentni Tipovi Podataka)
 // Neprimitivni Tipovi Podataka
 
 let brojGodina = 26;
@@ -15,7 +15,7 @@ console.log(brojTvojihGodina);
 
 console.log(brojGodina);
 
-//////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 
 let godine = [20, 21, 18, 17, 17, 19, 18, 17, 18, 19];
 let noveGodine = godine;

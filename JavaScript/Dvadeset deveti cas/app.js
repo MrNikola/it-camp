@@ -1,22 +1,22 @@
-// Metoda za prikazivanje datuma:
+// Metode za prikazivanje datuma:
 
 const trenutno = new Date();
 console.log(trenutno);
 
-// 1. toString
-console.log(trenutno.toString);
+// 1. toString()
+console.log(trenutno.toString());
 
-// 2.toUTCString()
-console.log(trenutno.toUTCString);
+// 2. toUTCString()
+console.log(trenutno.toUTCString());
 
 // 3. toDateString()
-console.log(trenutno.toDateString);
+console.log(trenutno.toDateString());
 
-// 4.toISOString()
-console.log(trenutno.toISOString);
+// 4. toISOString()
+console.log(trenutno.toISOString());
 
 // 5.
-console.log(trenutno.toTimeString);
+console.log(trenutno.toTimeString());
 
 // 6.
 console.log(trenutno.toLocaleTimeString());
@@ -37,34 +37,37 @@ console.log(trenutno.getDate());
 // getDay()
 let nedelja = new Date("2022 Dec 25");
 console.log(nedelja);
-console.log(nedelja.getDate());
+console.log(nedelja.getDay());
 
-// getMinutes
+// getHours()
 
-// getSeconds
+// getMinutes()
 
-// getMiliseconds
+// getSeconds()
+
+// getMiliseconds()
 
 // getTime()
 console.log(trenutno.getTime());
-// Vraca broj milisekundi.
+// Vraca broj milisekindi.
 
 // Set metode:
 
-// Dozvoljava menjanje nekih vrednosti koda Date objekta.
-
-// setDate()
-trenutno.setdate(19);
-console.log(trenutno);
+// Dozvoljavaju menjanje nekih vrednosti koda Date objekta.
 
 // setFullYear()
 trenutno.setFullYear(2015);
 console.log(trenutno);
 
-// setHours()
+// setMonth()
 
-trenutno.setHours(10);
+// setDate()
+trenutno.setDate(19);
 console.log(trenutno);
+
+// setHours()
+trenutno.setHours(10);
+console.log(trenutno.toTimeString());
 
 // setMinutes()
 
