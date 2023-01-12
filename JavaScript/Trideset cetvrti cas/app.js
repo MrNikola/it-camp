@@ -12,3 +12,5 @@ function callback() {
   console.log("Radnja unutar callback funkcije.");
 }
 glavnaFunkcija(callback);
+
+// Napraviti glavnu funkciju unutar koje ce se desiti radnja za ispis

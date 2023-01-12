@@ -54,3 +54,5 @@ const elementi = (parN) => {
   }
 };
 console.log(elementi(3));
+
+//6 zadatak w3school excersiese arrays
