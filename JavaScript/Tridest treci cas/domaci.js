@@ -1,16 +1,28 @@
-// 1. Write a JavaScript program which accept a number as input and insert dashes (-) between each two even numbers. For example if you accept 025468 the output should be 0-254-6-8
+// Napraviti funkciju koja vraca najveci element niza,
+const brojevi = [-5, 6, 10, 45, 99, -44];
 
-function prvizadatak() {
-  let broj = prompt("Unesite broj:");
-  let suma = "";
-  for (let i = 0; i < broj.length; i++) {
-    if (broj[i] % 2 === 0 && broj[i + 1] % 2 === 0) {
-      suma += broj[i] + "-";
-    } else {
-      suma += broj[i];
+// I nacin
+
+function maxEl(niz) {
+  niz.sort((a, b) => b - a);
+  return niz[0];
+}
+console.log(maxEl(brojevi));
+
+// II nacin
+
+console.log(Math.max.apply(null, brojevi));
+
+// III nacin
+
+function maxElement(niz) {
+  let max = Number.NEGATIVE_INFINITY;
+  for (let broj of niz) {
+    if (broj > max) {
+      max = broj;
     }
   }
-  return suma;
+  return max;
 }
-alert(prvizadatak());
-9;
+
+console.log(maxElement(brojevi));
