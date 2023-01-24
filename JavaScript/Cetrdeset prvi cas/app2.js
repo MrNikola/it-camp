@@ -39,3 +39,15 @@ const person2 = {
     return `${this.firstName} ${this.lastName}`;
   },
 };
+console.log(person2.fullName());
+
+// u JavaScriptu this je keyword (rezervisana rec) koja ukazuje na neki objekat.
+// this nije promenljiva i ne mozemo promeniti vrednost this.
+
+// this ukazuje na razlict objekat u zavisnosti od toga gde se koristi.
+
+// * U nekom objektu this ukazuje na taj objekat;
+// * U global scope this ukazuje na global object.
+
+// Napraviti objekat student koji ce da ima vrednosti (po zelji), svojstava:
+// ime, prezime, broj indeksa, ocene (niz svih)
