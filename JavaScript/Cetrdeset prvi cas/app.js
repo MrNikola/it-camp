@@ -2,10 +2,36 @@
 
 const main = (other) => {
   console.log("Radnja glavne funkcije...");
-  other();
+  return other(1, 2, 3);
 };
 
-const other = (first, second, third) => {
-  return +((first + second + third) / 3).toFixed(2);
+const ars = (first, second, third) => {
+  return console.log(+((first + second + third) / 3).toFixed(2));
 };
-console.log(main(other(10, 20, 30)));
+main(ars);
+
+// CLOSURE FUNKCIJE //
+
+// Poznata je cinjenica da kada se izvrsi funkcija, sve njene lokalne promenljive pokupi garbage colector i one prestaju da postoje u memoriji.
+// Medjutim, to nije slucaj za funkcije cije promenljive zahteva neka druga funkcija.
+
+// Closure je funkcija koja ima prava pristupa promenljivim iz domena druge funkcije.
+// To se najcesce postize ugradjivanjem funkcije unutar druge funkcije, nakon cega se postize tzv. Block chain.
+
+function first() {
+  const prom1 = "Hi";
+  return `${prom1} guys.`;
+}
+
+console.log(first());
+console.log(prom1);
+
+function second() {
+  const a = 5;
+  const b = 9;
+  function closure(c) {
+    return a * b;
+  }
+  return closure(3);
+}
+console.log(second());
