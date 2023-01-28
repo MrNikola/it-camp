@@ -40,3 +40,7 @@ console.log(mitar);
 // Object.value(obj)
 const niz = Object.values(mitar);
 console.log(niz);
+
+// Dodavanje novih svojstava:
+mitar.punoletnost = true;
+console.log(mitar);
