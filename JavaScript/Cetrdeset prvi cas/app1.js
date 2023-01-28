@@ -35,3 +35,8 @@ console.log(mitar);
 // Objekti,
 // Nizovi,
 // Funkcije...
+
+// Konvertovanje objekta u niz:
+// Object.value(obj)
+const niz = Object.values(mitar);
+console.log(niz);
