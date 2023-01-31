@@ -21,3 +21,33 @@ const myCar = {
   },
   udaran: true,
 };
+myCar.trenutnaBrzina = 0;
+myCar.maksimalnaBrzina = 260;
+console.log(mycar);
+
+myCar.povecanjeBrzine = function (ubrazanje) {
+if (this.trenutnaBrzina + ubrzanje > this.maksimalnaBrzina) { 
+return ` Nije moguce voziti preko maksimalne brzine.`;
+} else {
+    this.trenutnaBrzina += ubrazanje;
+}
+};
+
+myCar.povecanjeBrzine(30);
+console.log(myCar);
+// console.log(myCar.povecanjeBrzine(240));
+
+myCar.smanjenjeBrzine = function (smanjenje) {
+    if (this.trenutnaBrzina - smanjenje < 0) {
+        return `Ne mozete smanjiti brzinu za tu vrednost.`;
+    } else {
+        this.trenutnaBrzina -= smanjenje;
+        return { trenutnaBrzina: this.trenutnaBrzina}
+    }
+};
+
+console.log(myCar.smanjenjeBrzine(40));
+console.log(myCar.smanjenjeBrzine(25));
+console.log(myCar);
+
+myCar.koci = function
