@@ -14,3 +14,5 @@ const movies2 = movies.map((element) => {
   };
 });
 console.log(movies2);
+
+const grupa = [{}];
